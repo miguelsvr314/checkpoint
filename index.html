@@ -11,10 +11,10 @@
 <body>
     <header>
         <div class="headerTittle">
-        <img class="logo" src="./assets/logo1.png" alt="Logo de Todo Anime">
-        <h1>Todo Anime</h1>
-        <img class="logo" src="./assets/logo2.png" alt="Logo de Todo Anime">
-    </div>
+            <img class="logo" src="./assets/logo1.png" alt="Logo de Todo Anime">
+            <h1>Todo Anime</h1>
+            <img class="logo" src="./assets/logo2.png" alt="Logo de Todo Anime">
+        </div>
         <nav class="mainMenu">
             <a href="#">Principal</a>
             <a href="#">Favoritos</a>
@@ -40,53 +40,58 @@
         <section>
             <h2>Plataformas para ver Animes</h2>
             <div class="plataforms">
-            <ol class="lista">
-                <li>Netflix</li>
-                <li>Amazon Prime</li>
-                <li>HBO Max</li>
-                <li>Crunchyroll</li>
-            </ol>
-            <div class="borderT">
-            <table class="tabla">
-                <thead>
-                    <tr>
-                        <th>Plataformas</th>
-                        <th>Tarifas</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Netflix</td>
-                        <td>$180</td>
-                    </tr>
-                    <tr>
-                        <td>Amazon Prime</td>
-                        <td>$100</td>
-                    </tr>
-                    <tr>
-                        <td>HBO Max</td>
-                        <td>$150</td>
-                    </tr>
-                    <tr>
-                        <td>Crunchyroll</td>
-                        <td>$9.99</td>
-                    </tr>
-                </tbody>
-            </table>
+                <ol class="lista">
+                    <li>Netflix</li>
+                    <li>Amazon Prime</li>
+                    <li>HBO Max</li>
+                    <li>Crunchyroll</li>
+                </ol>
+                <div class="borderT">
+                    <table class="tabla">
+                        <thead>
+                            <tr>
+                                <th>Plataformas</th>
+                                <th>Tarifas</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Netflix</td>
+                                <td>$180</td>
+                            </tr>
+                            <tr>
+                                <td>Amazon Prime</td>
+                                <td>$100</td>
+                            </tr>
+                            <tr>
+                                <td>HBO Max</td>
+                                <td>$150</td>
+                            </tr>
+                            <tr>
+                                <td>Crunchyroll</td>
+                                <td>$9.99</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-        </div>
         </section>
     </main>
     <footer>
-        <div class="fContainer">
+        <div class="footerCont">
             <p>2024 - Todos los derechos reservados</p>
-            <div>
+
+            <div class="formCorreo">
                 <form action="./show_data.html" method="get">
-                <label for="Suscribete">Suscribete</label>
-                <input type="email" id="Suscribete" placeholder="Correo Electronico">
-                <button>Enviar</button>
-            </form>
+                    <fieldset>
+                        <legend>Suscribete</legend>
+                        <label for="correo">Email: </label>
+                        <input type="email" name="correo" id="correo" required>
+                        <button>Enviar</button>
+                    </fieldset>
+                </form>
             </div>
+
             <p>Miguel A. Severiche R.</p>
         </div>
 
